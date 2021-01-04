@@ -1,0 +1,35 @@
+{
+    "name": "rankfoundry/laravel-dashboard-fulfill-tile",
+    "type": "library",
+    "license": "MIT",
+    "description": "Laravel Dashboard Tile for SellBrite Fulfillment",
+    "keywords": ["amazon", "ebay", "walmart", "ecommerce", "sellbrite", "shopify", "laravel dashboard tile"],
+    "homepage": "https://rankfoundry.com",
+    "authors": [
+        {
+            "name": "Kevin Fairbanks",
+            "email": "kevin@rankfoundry.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "spatie/laravel-dashboard": "^2.0"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "RankFoundry\\FulfillTile\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RankFoundry\\FulfillTile\\FulfillTileServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
