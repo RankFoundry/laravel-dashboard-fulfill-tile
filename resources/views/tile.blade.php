@@ -1,11 +1,4 @@
 <x-dashboard-tile :position="$position">
-    
-    @if (count($products) > 0)
-    <audio autoplay>
-        <source src="https://lolaprofit.com/sounds/ka-ching.mp3">
-    </audio>
-    @endif
-    
     <ul class="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
         
         @foreach ($products as $product)
